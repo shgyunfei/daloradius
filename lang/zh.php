@@ -1577,11 +1577,7 @@ $l['helpPage']['repstatus'] = "<b>状态</b><br/>
 $l['helpPage']['reptopusers'] = "下面显示记录为高级用户,那些获得了最高消费的会话
 时间和带宽使用情况。清单的用户类别: ";
 $l['helpPage']['repusername'] = "记录发现的用户:";
-$l['helpPage']['reponline'] = "
-下表显示了当前连接用户
-系统。非常有可能,有陈旧的连接,
-这意味着用户掉线但NAS没有发送或不是
-能够发送停止会计包RADIUS服务器。";
+$l['helpPage']['reponline'] = "下表显示了当前连接的用户，由于延时或者掉线的原因，这个统计并不完全准确，建议刷新几次观察决定。";
 
 $l['helpPage']['mnglistall'] = "清单中的用户数据库";
 $l['helpPage']['mngsearch'] = "搜索用户： ";
