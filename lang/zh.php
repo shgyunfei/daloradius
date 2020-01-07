@@ -1,73 +1,81 @@
 <?php
 /*
  *********************************************************************************************************
- * daloRADIUS - RADIUS Web 平台
- * Copyright (C) 2007 - Liran Tal <liran@enginx.com> 版权所有。
+ * daloRADIUS - RADIUS Web Platform
+ * Copyright (C) 2007 - Liran Tal <liran@enginx.com> All Rights Reserved.
  *
- *这个程序是自由软件;你可以和/或重新分配
- *修改它根据GNU通用公共许可证
- *由自由软件基金会发布,版本2
- *的许可,或者(在您的选择)任何后来的版本。
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
  *
- *你应该收到了GNU通用公共许可证的副本
- *连同这个程序;如果不是,写信给自由软件
- *基础,Inc . 59寺庙的地方——330套房,波士顿,MA 02111 - 1307,美国
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  *
  *********************************************************************************************************
- * 描述:
- *		中文语言文件
- * 作者：Liran Tal <liran@enginx.com>
- * 汉化作者:	三多 <10644331064@qq.com>
- * 适用版本:	0.9.9
+ * Description:
+ *		English language file
+ *
+ * Authors:	Liran Tal <liran@enginx.com>
  *
  *********************************************************************************************************
  */
- 
+/*********************************************************************************************************
+ * 自由互通网路科技有限公司淄博分公司 
+ *		鑫田网联
+*      UTF-8简体中文填坑版。V1.1-3+1.0
+ *适用版本Daloradius 1.1.3版本 <a href=\"https://github.com/lirantal/daloradius 原版更新
+ * 作者：上官云飞（shgyunfei）威信：yunfei1718
+*此版本是手动翻译版本，不是翻译软件的产物。适合LAMP 
+ *严重鄙视国内某些开发人员不齿行为。
+ *********************************************************************************************************
+ */
 $l['all']['daloRADIUS'] = "daloRADIUS " . $configValues['DALORADIUS_VERSION'];
 $l['all']['daloRADIUSVersion'] = "版本 " . $configValues['DALORADIUS_VERSION'];
-$l['all']['copyright1'] = "RADIUS 管理、报告、会计和账单<a href=\"https://github.com/lirantal/daloradius\">Liran Tal</a>";
-$l['all']['copyright2'] = "daloRADIUS Copyright &copy; 2007-2019 by Liran Tal of Produced by SanDuo Chinese language pack</a>.";
+$l['all']['copyright1'] = "用户认证综合管理系统<a href=\"https://github.com/lirantal/daloradius\">Liran Tal</a>";
+$l['all']['copyright2'] = "daloRADIUS Copyright &copy; 2007-2019 by <a href=\"https://github.com/lirantal/daloradius\">Liran Tal</a> Template design by <a href=\"http://www.sixshootermedia.com\">Six Shooter Media</a>.";
 $l['all']['ID'] = "ID";
-$l['all']['PoolName'] = "IP地址名称";
-$l['all']['CalledStationId'] = "被叫号码";
-$l['all']['CallingStationID'] = "被叫号码";
+$l['all']['PoolName'] = "集群名称";
+$l['all']['CalledStationId'] = "注册ID号";
+$l['all']['CallingStationID'] = "认证ID号";
 $l['all']['ExpiryTime'] = "到期时间";
-$l['all']['PoolKey'] = "池秘钥";
+$l['all']['PoolKey'] = "秘钥";
 
 /********************************************************************************/
 /* 设备属性相关的翻译                                     */
 /********************************************************************************/
-$l['all']['Dictionary'] = "字典";
-$l['all']['VendorID'] = "设备代码";
+$l['all']['Dictionary'] = "参数列表";
+$l['all']['VendorID'] = "参数代码";
 $l['all']['VendorName'] = "设备名称";
-$l['all']['VendorAttribute'] = "所属设备";
-$l['all']['RecommendedOP'] = "推荐人";
-$l['all']['RecommendedTable'] = "推荐表";
-$l['all']['RecommendedTooltip'] = "推荐工具提示";
-$l['all']['RecommendedHelper'] = "推荐助手";
+$l['all']['VendorAttribute'] = "对接参数";
+$l['all']['RecommendedOP'] = "对接方式";
+$l['all']['RecommendedTable'] = "应答属性";
+$l['all']['RecommendedTooltip'] = "工具提示";
+$l['all']['RecommendedHelper'] = "辅助参数";
 /***********************************************************************************/
 
-$l['all']['CSVData'] = "CSV格式数据";
+$l['all']['CSVData'] = "表格";
 
 $l['all']['CPU'] = "CPU";
 
 /* ****************************** radius的相关文本 ******************************* */
-$l['all']['RADIUSDictionaryPath'] = "RADIUS字典路径";
+$l['all']['RADIUSDictionaryPath'] = "RADIUS文本路径";
 
 
-$l['all']['DashboardSecretKey'] = "仪表盘密钥";
-$l['all']['DashboardDebug'] = "调试";
-$l['all']['DashboardDelaySoft'] = "在几分钟的时间来考虑一个‘软’延迟限制";
-$l['all']['DashboardDelayHard'] = "在几分钟的时间来考虑一个‘硬’延迟限制";
+$l['all']['DashboardSecretKey'] = "集群通讯密钥";
+$l['all']['DashboardDebug'] = "调试模式";
+$l['all']['DashboardDelaySoft'] = "软件延时设置";
+$l['all']['DashboardDelayHard'] = "硬件延时设置";
 
 
 
-$l['all']['SendWelcomeNotification'] = "欢迎发送通知";
+$l['all']['SendWelcomeNotification'] = "发送欢迎消息";
 $l['all']['SMTPServerAddress'] = "SMTP服务器地址";
 $l['all']['SMTPServerPort'] = "SMTP服务器端口";
 $l['all']['SMTPServerFromEmail'] = "发件人邮件地址";
 
-$l['all']['customAttributes'] = "用户属性";
+$l['all']['customAttributes'] = "开发属性";
 
 $l['all']['UserType'] = "用户类型";
 
@@ -75,8 +83,8 @@ $l['all']['BatchName'] = "批量名称";
 $l['all']['BatchStatus'] = "批量状态";
 
 $l['all']['Users'] = "用户";
-
-$l['all']['Compare'] = "比较";
+$l['all']['Month'] = "月份";
+$l['all']['Compare'] = "对比";
 $l['all']['Never'] = "从不";
 
 
@@ -91,19 +99,17 @@ $l['all']['Weekly'] = "每周";
 $l['all']['Monthly'] = "每月";
 $l['all']['Yearly'] = "每年";
 
-$l['all']['Month'] = "月";
-
 $l['all']['RemoveRadacctRecords'] = "删除账单记录";
 
-$l['all']['CleanupSessions'] = "清理会话年龄比";
-$l['all']['DeleteSessions'] = "删除会话年龄比";
+$l['all']['CleanupSessions'] = "清理早于";
+$l['all']['DeleteSessions'] = "删除早于";
 
 $l['all']['StartingDate'] = "开始日期";
 $l['all']['EndingDate'] = "结束日期";
 
-$l['all']['Realm'] = "域";
-$l['all']['RealmName'] = "域名";
-$l['all']['RealmSecret'] = "域安全";
+$l['all']['Realm'] = "区域";
+$l['all']['RealmName'] = "区域名";
+$l['all']['RealmSecret'] = "区域安全";
 $l['all']['AuthHost'] = "认证主机";
 $l['all']['AcctHost'] = "统计主机";
 $l['all']['Ldflag'] = "ld标识";
@@ -144,15 +150,16 @@ $l['all']['CheckinTime'] = "最后登录";
 
 $l['all']['FramedIPAddress'] = "用户IP地址";
 $l['all']['SimultaneousUse'] = "同时使用";
-$l['all']['HgID'] = "寻线群ID";
-$l['all']['Hg'] = "寻线群";
-$l['all']['HgIPHost'] = "寻线群IP/主机";
-$l['all']['HgGroupName'] = "寻线群组名称";
-$l['all']['HgPortId'] = "寻线群端口名称";
+$l['all']['HgID'] = "集群ID";
+$l['all']['Hg'] = "集群";
+$l['all']['HgIPHost'] = "集群主机或地址";
+$l['all']['HgGroupName'] = "集群名称";
+$l['all']['HgPortId'] = "集群端口名称";
 $l['all']['NasID'] = "NAS ID";
 $l['all']['Nas'] = "NAS ";
 $l['all']['NasIPHost'] = "NAS IP/主机";
 $l['all']['NasShortname'] = "NAS 简称";
+$l['all']['NasVirtualServer'] = "NAS 虚拟";
 $l['all']['NasType'] = "NAS类型";
 $l['all']['NasPorts'] = "NAS端口";
 $l['all']['NasSecret'] = "NAS安全";
@@ -167,12 +174,12 @@ $l['all']['Username'] = "用户名";
 $l['all']['Password'] = "密码";
 $l['all']['PasswordType'] = "密码类型";
 $l['all']['IPAddress'] = "IP地址";
-$l['all']['Profile'] = "用户配置文件";
-$l['all']['Group'] = "组";
-$l['all']['Groupname'] = "组名称";
-$l['all']['ProfilePriority'] = "优先的配置文件";
+$l['all']['Profile'] = "个性化配置";
+$l['all']['Group'] = "组群";
+$l['all']['Groupname'] = "组群名称";
+$l['all']['ProfilePriority'] = "优先使用个性化配置";
 $l['all']['GroupPriority'] = "优先的组";
-$l['all']['CurrentGroupname'] = "通用组名称";
+$l['all']['CurrentGroupname'] = "默认组群名称";
 $l['all']['NewGroupname'] = "新建组名称";
 $l['all']['Priority'] = "优先";
 $l['all']['Attribute'] = "属性";
@@ -227,15 +234,15 @@ $l['all']['CreationDate'] = "创建日期";
 $l['all']['CreationBy'] = "创建人";
 $l['all']['UpdateDate'] = "更新日期";
 $l['all']['UpdateBy'] = "更新人";
-
+/*nas*/
 $l['all']['Discount'] = "折扣";
 $l['all']['BillAmount'] = "记账总额";
 $l['all']['BillAction'] = "记账功能";
 $l['all']['BillPerformer'] = "记账执行者";
 $l['all']['BillReason'] = "记账原因";
-$l['all']['Lead'] = "广告";
+$l['all']['Lead'] = "客户来源";
 $l['all']['Coupon'] = "优惠券";
-$l['all']['OrderTaker'] = "订单员";
+$l['all']['OrderTaker'] = "客户经理";
 $l['all']['BillStatus'] = "记账状态";
 $l['all']['LastBill'] = "最后记账";
 $l['all']['NextBill'] = "下次记账";
@@ -250,7 +257,7 @@ $l['all']['Date'] = "日期";
 
 $l['all']['edit'] = "编辑";
 $l['all']['del'] = "删除";
-$l['all']['groupslist'] = "群组列表";
+$l['all']['groupslist'] = "组群列表";
 $l['all']['TestUser'] = "测试用户";
 $l['all']['Accounting'] = "账单";
 $l['all']['RADIUSReply'] = "用户状态";/**RADIUS回复状态Access-Accept  Access-Request**/
@@ -267,7 +274,7 @@ $l['all']['DatabaseHostname'] = "数据库主机名称";
 $l['all']['DatabasePort'] = "数据库端口号";
 $l['all']['DatabaseUser'] = "数据库用户名";
 $l['all']['DatabasePass'] = "数据库密码";
-$l['all']['DatabaseName'] = "数据名称";
+$l['all']['DatabaseName'] = "数据库名称";
 
 $l['all']['PrimaryLanguage'] = "主要语言";
 
@@ -323,9 +330,9 @@ $l['all']['realms'] = "域";
 $l['all']['proxys'] = "代理";
 $l['all']['billingpaypal'] = "PayPal记账";
 $l['all']['billingmerchant'] = "供货方记账";
-$l['all']['billingplans'] = "记账计划";
-$l['all']['billinghistory'] = "记账历史";
-$l['all']['billinginfo'] = "记账信息";
+$l['all']['billingplans'] = "套餐账单";
+$l['all']['billinghistory'] = "历史账单";
+$l['all']['billinginfo'] = "账单信息";
 
 
 $l['all']['CreateIncrementingUsers'] = "创建增量用户";
@@ -342,34 +349,34 @@ $l['all']['BatchCost'] = "批量花费";
 
 $l['all']['PaymentDate'] = "付款日";
 $l['all']['PaymentStatus'] = "付款状态";
-$l['all']['FirstName'] = "名";
-$l['all']['LastName'] = "姓";
+$l['all']['FirstName'] = "姓名";
+$l['all']['LastName'] = "姓名";
 $l['all']['VendorType'] = "设备类型";
 $l['all']['PayerStatus'] = "付款人状态";
 $l['all']['PaymentAddressStatus'] = "付款地址状态";
-$l['all']['PayerEmail'] = "付款日Email";
+$l['all']['PayerEmail'] = "付款提示-Email";
 $l['all']['TxnId'] = "交易ID";
-$l['all']['PlanActive'] = "活动计划";
-$l['all']['PlanTimeType'] = "计划时间类型";
-$l['all']['PlanTimeBank'] = "计划时间银行";
-$l['all']['PlanTimeRefillCost'] = "计划补充花费";
-$l['all']['PlanTrafficRefillCost'] = "计划补充花费";
-$l['all']['PlanBandwidthUp'] = "计划上传带宽";
-$l['all']['PlanBandwidthDown'] = "计划下载带宽";
-$l['all']['PlanTrafficTotal'] = "计划总流量";
-$l['all']['PlanTrafficDown'] = "计划下载流量";
-$l['all']['PlanTrafficUp'] = "计划上传流量";
-$l['all']['PlanRecurring'] = "计划循环";
-$l['all']['PlanRecurringPeriod'] = "计划循环周期";
-$l['all']['planRecurringBillingSchedule'] = "计划重复记账安排";
-$l['all']['PlanCost'] = "计划花费";
-$l['all']['PlanSetupCost'] = "计划安装花费";
-$l['all']['PlanTax'] = "计划税额";
-$l['all']['PlanCurrency'] = "计划货币";
-$l['all']['PlanGroup'] = "计划个人用户配置（组）";
-$l['all']['PlanType'] = "计划类型";
-$l['all']['PlanName'] = "计划名称";
-$l['all']['PlanId'] = "计划ID";
+$l['all']['PlanActive'] = "激活套餐";
+$l['all']['PlanTimeType'] = "到期处理类型";
+$l['all']['PlanTimeBank'] = "套餐时长";
+$l['all']['PlanTimeRefillCost'] = "套餐充值";
+$l['all']['PlanTrafficRefillCost'] = "套餐充值金额";
+$l['all']['PlanBandwidthUp'] = "套餐内上传带宽";
+$l['all']['PlanBandwidthDown'] = "套餐内下载带宽";
+$l['all']['PlanTrafficTotal'] = "套餐内总流量";
+$l['all']['PlanTrafficDown'] = "套餐内下载流量";
+$l['all']['PlanTrafficUp'] = "套餐内上传流量";
+$l['all']['PlanRecurring'] = "是否积累！";
+$l['all']['PlanRecurringPeriod'] = "套餐循环周期";
+$l['all']['planRecurringBillingSchedule'] = "积累类型！";
+$l['all']['PlanCost'] = "套餐价格";
+$l['all']['PlanSetupCost'] = "调测费";
+$l['all']['PlanTax'] = "税费";
+$l['all']['PlanCurrency'] = "货币类型";
+$l['all']['PlanGroup'] = "套餐配置关联";
+$l['all']['PlanType'] = "套餐收款类型";
+$l['all']['PlanName'] = "套餐名称";
+$l['all']['PlanId'] = "套餐ID";
 
 $l['all']['UserId'] = "用户Id";
 
@@ -433,12 +440,13 @@ $l['Tooltip']['batchDescriptionTooltip'] = "为本批创建提供一个一般描
 $l['Tooltip']['hotspotTooltip'] = "选择与这批实例相关联的热点名字";
 
 $l['Tooltip']['startingIndexTooltip'] = "提供起始索引的创建用户";
-$l['Tooltip']['planTooltip'] = "选一个计划来关联用户";
+$l['Tooltip']['planTooltip'] = "选择一个关联到套餐";
 
-$l['Tooltip']['InvoiceEdit'] = "编辑账单";
-$l['Tooltip']['invoiceTypeTooltip'] = "账单类型工具提示";
-$l['Tooltip']['invoiceStatusTooltip'] = "账单状态工具提示";
-$l['Tooltip']['invoiceID'] = "账单ID类型";
+$l['Tooltip']['InvoiceEdit'] = "编辑票据";
+$l['Tooltip']['invoiceTypeTooltip'] = "票据类型工具提示";
+$l['Tooltip']['invoiceStatusTooltip'] = "票据状态工具提示";
+$l['Tooltip']['invoiceID'] = "票据ID类型";
+$l['Tooltip']['user_idTooltip'] = "用户id";
 
 $l['Tooltip']['amountTooltip'] = "金额工具提示";
 $l['Tooltip']['taxTooltip'] = "税额工具提示";
@@ -453,7 +461,7 @@ $l['Tooltip']['paymentTypeNotesTooltip'] = "描述付款类型的描述<br/>
 $l['Tooltip']['EditPayment'] = "编辑付款";
 $l['Tooltip']['PaymentId'] = "付款Id";
 $l['Tooltip']['RemovePayment'] = "移除付款";
-$l['Tooltip']['paymentInvoiceTooltip'] = "此次付款相关的账单";
+$l['Tooltip']['paymentInvoiceTooltip'] = "此次付款相关的订单号";
 
 
 
@@ -471,8 +479,8 @@ $l['Tooltip']['Filter'] = "过滤器的类型，可以是任何字符的字符�
 $l['Tooltip']['Date'] = "日期类型 <br/> 示例: 1982-06-04 (Y-M-D)";
 $l['Tooltip']['RateName'] = "价格名称类型";
 $l['Tooltip']['OperatorName'] = "操作人名称类型";
-$l['Tooltip']['BillingPlanName'] = "记账计划名称类型";
-$l['Tooltip']['PlanName'] = "计划名称类型";
+$l['Tooltip']['BillingPlanName'] = "套餐账单";
+$l['Tooltip']['PlanName'] = "套餐名称";
 
 $l['Tooltip']['EditRate'] = "编辑价格";
 $l['Tooltip']['RemoveRate'] = "移除价格";
@@ -483,27 +491,28 @@ $l['Tooltip']['rateTypeTooltip'] = "价格类型，来描述<br/>
 					价格的操作";
 $l['Tooltip']['rateCostTooltip'] = "价格花费金额";
 
-$l['Tooltip']['planNameTooltip'] = "计划的名字。这是<br/>
-					一个友好的描述计划的特性。";
-$l['Tooltip']['planIdTooltip'] = "计划ID提示工具";
-$l['Tooltip']['planTimeTypeTooltip'] = "计划时间类型提示工具";
-$l['Tooltip']['planTimeBankTooltip'] = "计划时间银行提示工具";
-$l['Tooltip']['planTimeRefillCostTooltip'] = "计划时间补充话费提示工具";
-$l['Tooltip']['planTrafficRefillCostTooltip'] = "计划流量补充提示工具";
-$l['Tooltip']['planBandwidthUpTooltip'] = "计划上传带宽提示工具";
-$l['Tooltip']['planBandwidthDownTooltip'] = "计划下载带宽提示工具";
-$l['Tooltip']['planTrafficTotalTooltip'] = "计划总流量提示工具";
-$l['Tooltip']['planTrafficDownTooltip'] = "计划下载流量提示工具";
-$l['Tooltip']['planTrafficUpTooltip'] = "计划流量上传提示工具";
+$l['Tooltip']['planNameTooltip'] = "套餐名称。<br/>
+                                    自定义套餐的名字。";
 
-$l['Tooltip']['planRecurringTooltip'] = "计划循环提示工具";
-$l['Tooltip']['planRecurringBillingScheduleTooltip'] = "计划循环记账安排提示工具";
-$l['Tooltip']['planRecurringPeriodTooltip'] = "计划循环周期提示工具";
-$l['Tooltip']['planCostTooltip'] = "计划花费提示工具";
-$l['Tooltip']['planSetupCostTooltip'] = "计划安装话费提示工具";
-$l['Tooltip']['planTaxTooltip'] = "计划税额提示工具";
-$l['Tooltip']['planCurrencyTooltip'] = "计划货币提示工具";
-$l['Tooltip']['planGroupTooltip'] = "计划群组提示工具";
+$l['Tooltip']['planIdTooltip'] = "套餐提示";
+$l['Tooltip']['planTimeTypeTooltip'] = "收费类型1：PayPal 网络支付。<br/>2：2Checkout 到店支付。<br/>3：Prepaid 预付费。<br/>4：Postpaid 后付费。<br/>";
+$l['Tooltip']['planTimeBankTooltip'] = "套餐时长";
+$l['Tooltip']['planTimeRefillCostTooltip'] = "套餐费用累计";
+$l['Tooltip']['planTrafficRefillCostTooltip'] = "套餐内流量";
+$l['Tooltip']['planBandwidthUpTooltip'] = "套餐内上传带宽数";
+$l['Tooltip']['planBandwidthDownTooltip'] = "套餐内下载带宽数";
+$l['Tooltip']['planTrafficTotalTooltip'] = "套餐内总流量提示工具";
+$l['Tooltip']['planTrafficDownTooltip'] = "套餐内下载流量提示工具";
+$l['Tooltip']['planTrafficUpTooltip'] = "套餐内流量上传提示工具";
+
+$l['Tooltip']['planRecurringTooltip'] = "套餐计时到期处理类型1：累计 2：停机";
+$l['Tooltip']['planRecurringBillingScheduleTooltip'] = "套餐累计计费";
+$l['Tooltip']['planRecurringPeriodTooltip'] = "套餐计费周期";
+$l['Tooltip']['planCostTooltip'] = "套餐费费提示工具";
+$l['Tooltip']['planSetupCostTooltip'] = "调测费，开户费等一次性收取费用";
+$l['Tooltip']['planTaxTooltip'] = "套餐税额提示工具";
+$l['Tooltip']['planCurrencyTooltip'] = "计费货币类型提示工具";
+$l['Tooltip']['planGroupTooltip'] = "套餐关联群组提示工具";
 
 $l['Tooltip']['EditIPPool'] = "编辑IP地址池";
 $l['Tooltip']['RemoveIPPool'] = "移除IP地址池";
@@ -526,8 +535,14 @@ $l['Tooltip']['proxyRetryCountTooltip'] = "发送重试次数 <br/>
 					消息给NAS.";
 $l['Tooltip']['proxyDeadTimeTooltip'] = "如果主机不响应 <br/>
 					给任意一个多重尝试，<br/>
-					然后FreeRADIUS将停止发送给它。<br/>
-					代理请求，然后标记它‘废弃’。";
+					然后FreeRADIUS将停止发送给它。<br/>代理请求，然后标记它‘废弃’。";
+$l['Tooltip']['proxyRetryCountTooltip'] = "The number of retries to send <br/>
+					before giving up, and sending a <br/>
+					reject message to the NAS.";
+$l['Tooltip']['proxyDeadTimeTooltip'] = "If the home server does not respond <br/>
+					to any of the multiple retries, <br/>
+					then FreeRADIUS will stop sending it <br/>
+					proxy requests, and mark it 'dead'.";
 $l['Tooltip']['proxyDefaultFallbackTooltip'] = "如果所有完全匹配的域 <br/>
 						不响应，我们可以尝试 <br/>
 						";
@@ -535,7 +550,7 @@ $l['Tooltip']['realmNameTooltip'] = "域名";
 $l['Tooltip']['realmTypeTooltip'] = "设置默认radius";
 $l['Tooltip']['realmSecretTooltip'] = "域RADIUS共享秘钥安全";
 $l['Tooltip']['realmAuthhostTooltip'] = "域认证主机";
-$l['Tooltip']['realmAccthostTooltip'] = "域账单主机";
+$l['Tooltip']['realmAccthostTooltip'] = "域统计主机";
 $l['Tooltip']['realmLdflagTooltip'] = "允许负载平衡<br/>
 					允许值为‘失效转移’ <br/>
 					和‘轮叫调度’。";
@@ -592,11 +607,14 @@ $l['Tooltip']['EditGroup'] = "编辑组";
 
 $l['FormField']['mngradgroupcheck.php']['ToolTip']['Value'] = "如果指定的值，然后只有单一的记录都同组名称和指定值匹配，指定值将被移除。如果省略了值，然后所有那些特定组名称的记录将被移除！";
 
+
 $l['FormField']['mngradgroupreplydel.php']['ToolTip']['Value'] = "如果指定的值，然后只有单一的记录都同组名称和指定值匹配，指定值将被移除。如果省略了值，然后所有那些特定组名称的记录将被移除！";
+
 
 $l['FormField']['mngradnasnew.php']['ToolTip']['NasShortname'] = "（描述名称）";
 
 $l['FormField']['mngradusergroupdel.php']['ToolTip']['Groupname'] = "如果指定的组，然后只有单一的记录都同用户名和组匹配，指定的将被移除。如果省略了组，然后所有那些特定的用户名称记录将被移除！";
+
 
 
 $l['Tooltip']['usernameTooltip'] = "准确的用户名，用户将<br/>&nbsp;&nbsp;&nbsp;
@@ -638,9 +656,9 @@ $l['Tooltip']['geocodeTooltip'] = "示例：-1.002,-2.201<br/>&nbsp;&nbsp;&nbsp;
 					GooleMaps位置代码<br/>&nbsp;&nbsp;&nbsp;
 					来PIN热点/NAS在上（看GIS）";
 
-$l['Tooltip']['reassignplanprofiles'] = "如果开启,当应用用户信息 <br/>
-					这个个人配置文件中显示的个人配置文件选项卡将被忽略和<br/>
-					个人配置文件将被重新分配根据计划个人配置文件关联";
+$l['Tooltip']['reassignplanprofiles'] = "个性化 <br/>
+					如果启用将启用套餐内配置的通用参数。如果关闭将启用个性化配置<br/>
+					";
 
 /* ********************************************************************************** */
 
@@ -651,10 +669,10 @@ $l['Tooltip']['reassignplanprofiles'] = "如果开启,当应用用户信息 <br/
 链接和按钮
  ************************************************************************************/
 
-$l['button']['DashboardSettings'] = "仪表盘设置";
+$l['button']['DashboardSettings'] = "集群设置";
 
 
-$l['button']['GenerateReport'] = "生成报告";
+$l['button']['GenerateReport'] = "生成报表";
 
 $l['button']['ListPayTypes'] = "显示付款类型";
 $l['button']['NewPayType'] = "新建付款类型";
@@ -668,11 +686,11 @@ $l['button']['RemovePayment'] = "移除支付";
 $l['button']['NewUsers'] = "新建用户";
 
 $l['button']['ClearSessions'] = "清除会话";
-$l['button']['Dashboard'] = "仪表盘";
+$l['button']['Dashboard'] = "集群状态";
 $l['button']['MailSettings'] = "邮件设置";
 
 $l['button']['Batch'] = "批量";
-$l['button']['BatchHistory'] = "批量历史";
+$l['button']['BatchHistory'] = "批量记录";
 $l['button']['BatchDetails'] = "批量明细";
 
 $l['button']['ListRates'] = "显示率列";
@@ -680,15 +698,15 @@ $l['button']['NewRate'] = "新建率列";
 $l['button']['EditRate'] = "编辑率列";
 $l['button']['RemoveRate'] = "移除率列";
 
-$l['button']['ListPlans'] = "显示计划";
-$l['button']['NewPlan'] = "新建计划";
-$l['button']['EditPlan'] = "编辑计划";
-$l['button']['RemovePlan'] = "移除计划";
+$l['button']['ListPlans'] = "显示套餐";
+$l['button']['NewPlan'] = "新建套餐";
+$l['button']['EditPlan'] = "编辑套餐";
+$l['button']['RemovePlan'] = "移除套餐";
 
-$l['button']['ListInvoices'] = "显示账单";
-$l['button']['NewInvoice'] = "新建账单";
-$l['button']['EditInvoice'] = "编辑账单";
-$l['button']['RemoveInvoice'] = "移除账单";
+$l['button']['ListInvoices'] = "显示票据";
+$l['button']['NewInvoice'] = "新建票据";
+$l['button']['EditInvoice'] = "编辑票据";
+$l['button']['RemoveInvoice'] = "移除票据";
 
 $l['button']['ListRealms'] = "显示域";
 $l['button']['NewRealm'] = "新建域";
@@ -700,23 +718,23 @@ $l['button']['NewProxy'] = "新建代理";
 $l['button']['EditProxy'] = "编辑代理";
 $l['button']['RemoveProxy'] = "移除代理";
 
-$l['button']['ListAttributesforVendor'] = "显示属性";
-$l['button']['NewVendorAttribute'] = "新建属性";
-$l['button']['EditVendorAttribute'] = "编辑属性";
-$l['button']['SearchVendorAttribute'] = "搜索属性";
-$l['button']['RemoveVendorAttribute'] = "移除属性";
-$l['button']['ImportVendorDictionary'] = "导入字典/属性";
+$l['button']['ListAttributesforVendor'] = "显示对接参数";
+$l['button']['NewVendorAttribute'] = "新建参数";
+$l['button']['EditVendorAttribute'] = "编辑参数";
+$l['button']['SearchVendorAttribute'] = "搜索参数";
+$l['button']['RemoveVendorAttribute'] = "移除参数";
+$l['button']['ImportVendorDictionary'] = "导入对接参数";
 
 
 $l['button']['BetweenDates'] = "始末日期";
 $l['button']['Where'] = "条件";
-$l['button']['AccountingFieldsinQuery'] = "查询账单域";
+$l['button']['AccountingFieldsinQuery'] = "自定义查询";
 $l['button']['OrderBy'] = "排序";
-$l['button']['HotspotAccounting'] = "热点账单";
-$l['button']['HotspotsComparison'] = "热点比较";
+$l['button']['HotspotAccounting'] = "热点统计";
+$l['button']['HotspotsComparison'] = "热点对比";
 
-$l['button']['CleanupStaleSessions'] = "清理过期账单";
-$l['button']['DeleteAccountingRecords'] = "删除账单记录";
+$l['button']['CleanupStaleSessions'] = "清理过期记录";
+$l['button']['DeleteAccountingRecords'] = "删除记录";
 
 $l['button']['ListUsers'] = "用户列表";
 $l['button']['ListBatches'] = "显示批量";
@@ -770,20 +788,20 @@ $l['button']['NewGroupCheck'] = "新建组检查";
 $l['button']['EditGroupCheck'] = "编辑组检查";
 $l['button']['RemoveGroupCheck'] = "移除组检查";
 
-$l['button']['UserAccounting'] = "用户账单";
-$l['button']['IPAccounting'] = "IP账单";
-$l['button']['NASIPAccounting'] = "NAS IP账单";
+$l['button']['UserAccounting'] = "用户统计";
+$l['button']['IPAccounting'] = "IP统计";
+$l['button']['NASIPAccounting'] = "NAS IP统计";
 $l['button']['NASIPAccountingOnlyActive'] = "只显示活动";
-$l['button']['DateAccounting'] = "日期账单";
+$l['button']['DateAccounting'] = "日期统计";
 $l['button']['AllRecords'] = "所有记录";
 $l['button']['ActiveRecords'] = "活动记录";
 
-$l['button']['PlanUsage'] = "计划使用";
+$l['button']['PlanUsage'] = "套餐使用率";
 
 $l['button']['OnlineUsers'] = "在线用户";
-$l['button']['LastConnectionAttempts'] = "连接记录";
+$l['button']['LastConnectionAttempts'] = "认证和连接记录";
 $l['button']['TopUser'] = "用户排行";
-$l['button']['History'] = "历史";
+$l['button']['History'] = "历史记录";
 
 $l['button']['ServerStatus'] = "服务器状态";
 $l['button']['ServicesStatus'] = "服务状态";
@@ -810,7 +828,7 @@ $l['button']['LanguageSettings'] = "语言设置";
 $l['button']['LoggingSettings'] = "日志设置";
 $l['button']['InterfaceSettings'] = "接口设置";
 
-$l['button']['ReAssignPlanProfiles'] = "重新分配计划个人配置文件";
+$l['button']['ReAssignPlanProfiles'] = "启用个性化参数";
 
 $l['button']['TestUserConnectivity'] = "测试用户连通性";
 $l['button']['DisconnectUser'] = "断开用户";
@@ -838,14 +856,12 @@ $l['button']['ProcessQuery'] = "查询进程";
 $l['title']['ImportUsers'] = "导入用户";
 
 
-/*$l['title']['Dashboard'] = "仪表盘";*/
-
 $l['title']['Dashboard'] = "控制面板";
 $l['title']['DashboardAlerts'] = "警告";
 
-$l['title']['Invoice'] = "账单";
-$l['title']['Invoices'] = "账单";
-$l['title']['InvoiceRemoval'] = "账单移除";
+$l['title']['Invoice'] = "票据";
+$l['title']['Invoices'] = "票据";
+$l['title']['InvoiceRemoval'] = "删除票据";
 $l['title']['Payments'] = "支付";
 $l['title']['Items'] = "项目";
 
@@ -854,10 +870,10 @@ $l['title']['PaymentInfo'] = "支付信息";
 
  
 $l['title']['RateInfo'] = "价格信息";
-$l['title']['PlanInfo'] = "计划信息";
+$l['title']['PlanInfo'] = "套餐信息";
 $l['title']['TimeSettings'] = "时间设置";
 $l['title']['BandwidthSettings'] = "带宽设置";
-$l['title']['PlanRemoval'] = "计划移除";
+$l['title']['PlanRemoval'] = "移除套餐";
 
 $l['title']['BatchRemoval'] = "批量移除";
 
@@ -869,8 +885,9 @@ $l['title']['IPPoolInfo'] = "IP地址池信息";
 
 $l['title']['BusinessInfo'] = "公司信息";
 
-$l['title']['CleanupRecords'] = "清除记录";
-$l['title']['DeleteRecords'] = "删除记录";
+$l['title']['CleanupRecordsByUsername'] = "By Username";
+$l['title']['CleanupRecordsByDate'] = "By Date";
+$l['title']['DeleteRecords'] = "Delete Records";
 
 $l['title']['RealmInfo'] = "域信息";
 
@@ -878,8 +895,8 @@ $l['title']['ProxyInfo'] = "代理信息";
 
 $l['title']['VendorAttribute'] = "设备属性";
 
-$l['title']['AccountRemoval'] = "账单移除";
-$l['title']['AccountInfo'] = "账单信息";
+$l['title']['AccountRemoval'] = "移除记录";
+$l['title']['AccountInfo'] = "认证信息";
 
 $l['title']['Profiles'] = "个人配置";
 $l['title']['ProfileInfo'] = "个人配置信息";
@@ -901,7 +918,7 @@ $l['title']['HotspotRemoval'] = "热点移除";
 
 $l['title']['ContactInfo'] = "联系信息";
 
-$l['title']['Plan'] = "计划";
+$l['title']['Plan'] = "套餐";
 
 $l['title']['Profile'] = "个人配置";
 $l['title']['Groups'] = "组";
@@ -967,7 +984,7 @@ $l['ContactInfo']['HomePhone'] = "家庭电话";
 $l['ContactInfo']['Phone'] = "电话";
 $l['ContactInfo']['MobilePhone'] = "手机";
 $l['ContactInfo']['Notes'] = "备注";
-$l['ContactInfo']['EnableUserUpdate'] = "允许用户更新";
+$l['ContactInfo']['EnableUserUpdate'] = "允许用户修改信息";
 $l['ContactInfo']['EnablePortalLogin'] = "允许用户登录门户";
 $l['ContactInfo']['PortalLoginPassword'] = "设置登录密码";
 
@@ -989,7 +1006,7 @@ $l['ContactInfo']['CompanyPhone'] = "公司电话";
 $l['ContactInfo']['CompanyEmail'] = "公司电子邮件";
 $l['ContactInfo']['CompanyContact'] = "联系公司";
 
-$l['ContactInfo']['PlanName'] = "计划名称";
+$l['ContactInfo']['PlanName'] = "套餐名称";
 $l['ContactInfo']['ContactPerson'] = "联系人";
 $l['ContactInfo']['PaymentMethod'] = "支付方式";
 $l['ContactInfo']['Cash'] = "现金";
@@ -1001,23 +1018,23 @@ $l['ContactInfo']['CreditCardExpiration'] = "信用卡有效期";
 
 /* ********************************************************************************** */
 
-$l['Intro']['configdashboard.php'] = "仪表盘设置";
+$l['Intro']['configdashboard.php'] = "集群设置";
 
 
 
-$l['Intro']['paymenttypesmain.php'] = "支付类型页面";
+$l['Intro']['paymenttypesmain.php'] = "帐目管理";
 $l['Intro']['paymenttypesdel.php'] = "删除支付类型条目";
 $l['Intro']['paymenttypesedit.php'] = "编辑支付类型明细";
 $l['Intro']['paymenttypeslist.php'] = "支付类型表格";
 $l['Intro']['paymenttypesnew.php'] = "新建支付类型条目";
 $l['Intro']['paymenttypeslist.php'] = "支付类型表格";
-$l['Intro']['paymentslist.php'] = "支付表格";
+$l['Intro']['paymentslist.php'] = "帐目列表";
 $l['Intro']['paymentsmain.php'] = "支付页面";
 $l['Intro']['paymentsdel.php'] = "删除支付条目";
 $l['Intro']['paymentsedit.php'] = "编辑支付明细";
 $l['Intro']['paymentsnew.php'] = "新建支付条目";
 
-$l['Intro']['billhistorymain.php'] = "记账历史";
+$l['Intro']['billhistorymain.php'] = "历史帐目";
 $l['Intro']['msgerrorpermissions.php'] = "错误";
 
 $l['Intro']['repnewusers.php'] = "显示新用户";
@@ -1034,31 +1051,31 @@ $l['Intro']['mngradrealmslist.php'] = "显示域";
 $l['Intro']['mngradrealmsedit.php'] = "编辑域";
 $l['Intro']['mngradrealmsdel.php'] = "移除域";
 
-$l['Intro']['mngradattributes.php'] = "设备属性管理";
-$l['Intro']['mngradattributeslist.php'] = "设备的属性列表";
-$l['Intro']['mngradattributesnew.php'] = "新建设备属性";
-$l['Intro']['mngradattributesedit.php'] = "编辑设备属性";
-$l['Intro']['mngradattributessearch.php'] = "搜索属性";
+$l['Intro']['mngradattributes.php'] = "对接参数管理";
+$l['Intro']['mngradattributeslist.php'] = "对接参数列表";
+$l['Intro']['mngradattributesnew.php'] = "新建对接参数";
+$l['Intro']['mngradattributesedit.php'] = "编辑对接参数";
+$l['Intro']['mngradattributessearch.php'] = "搜索对接参数";
 $l['Intro']['mngradattributesdel.php'] = "移除设备属性";
-$l['Intro']['mngradattributesimport.php'] = "导入设备字典";
+$l['Intro']['mngradattributesimport.php'] = "导入参数列表";
 $l['Intro']['mngimportusers.php'] = "导入用户";
 
 
-$l['Intro']['acctactive.php'] = "活动记录账单";
-$l['Intro']['acctall.php'] = "所有用户账单";
-$l['Intro']['acctdate.php'] = "日期方式账单";
-$l['Intro']['accthotspot.php'] = "热点账单";
-$l['Intro']['acctipaddress.php'] = "IP账单";
-$l['Intro']['accthotspotcompare.php'] = "热点比较";
-$l['Intro']['acctmain.php'] = "账单页面";
-$l['Intro']['acctplans.php'] = "计划账单页面";
-$l['Intro']['acctnasipaddress.php'] = "NAS IP账单";
-$l['Intro']['acctusername.php'] = "用户账单";
-$l['Intro']['acctcustom.php'] = "客户账单";
-$l['Intro']['acctcustomquery.php'] = "客户查询账单";
-$l['Intro']['acctmaintenance.php'] = "账单记录维护";
-$l['Intro']['acctmaintenancecleanup.php'] = "删除过期账单";
-$l['Intro']['acctmaintenancedelete.php'] = "删除账单记录";
+$l['Intro']['acctactive.php'] = "活动记录";
+$l['Intro']['acctall.php'] = "所有用户记录";
+$l['Intro']['acctdate.php'] = "按日期查询";
+$l['Intro']['accthotspot.php'] = "按热点统计";
+$l['Intro']['acctipaddress.php'] = "按IP记录";
+$l['Intro']['accthotspotcompare.php'] = "热点对比";
+$l['Intro']['acctmain.php'] = "统计页面";
+$l['Intro']['acctplans.php'] = "套餐统计";
+$l['Intro']['acctnasipaddress.php'] = "NAS IP统计";
+$l['Intro']['acctusername.php'] = "用户记录";
+$l['Intro']['acctcustom.php'] = "客户统计";
+$l['Intro']['acctcustomquery.php'] = "查询客户";
+$l['Intro']['acctmaintenance.php'] = "统计维护";
+$l['Intro']['acctmaintenancecleanup.php'] = "清理过去数据";
+$l['Intro']['acctmaintenancedelete.php'] = "删除统计信息";
 
 $l['Intro']['billmain.php'] = "记账页面";
 $l['Intro']['ratesmain.php'] = "价格记账页面";
@@ -1068,25 +1085,25 @@ $l['Intro']['billratesedit.php'] = "编辑利率信息";
 $l['Intro']['billrateslist.php'] = "账单利率表";
 $l['Intro']['billratesnew.php'] = "新建利率列表";
 
-$l['Intro']['paypalmain.php'] = "PayPal交易页面";
-$l['Intro']['billpaypaltransactions.php'] = "PayPal交易页面";
+$l['Intro']['paypalmain.php'] = "线上支付管理";
+$l['Intro']['billpaypaltransactions.php'] = "线上支付管理";
 
 $l['Intro']['billhistoryquery.php'] = "记账历史";
 
-$l['Intro']['billinvoice.php'] = "会计账单";
+$l['Intro']['billinvoice.php'] = "票据管理";
 $l['Intro']['billinvoicedel.php'] = "删除账单条目";
 $l['Intro']['billinvoiceedit.php'] = "编辑账单";
 $l['Intro']['billinvoicelist.php'] = "显示账单";
-$l['Intro']['billinvoicereport.php'] = "账单报告";
+$l['Intro']['billinvoicereport.php'] = "账单报表";
 $l['Intro']['billinvoicenew.php'] = "新建账单";
 
-$l['Intro']['billplans.php'] = "记账计划页面";
-$l['Intro']['billplansdel.php'] = "删除计划条目";
-$l['Intro']['billplansedit.php'] = "编辑计划明细";
-$l['Intro']['billplanslist.php'] = "计划表";
-$l['Intro']['billplansnew.php'] = "新建计划条目";
+$l['Intro']['billplans.php'] = "套餐账单页面";
+$l['Intro']['billplansdel.php'] = "删除账单条目";
+$l['Intro']['billplansedit.php'] = "编辑账单明细";
+$l['Intro']['billplanslist.php'] = "套餐表";
+$l['Intro']['billplansnew.php'] = "新建账单条目";
 
-$l['Intro']['billpos.php'] = "销售页面的记账点";
+$l['Intro']['billpos.php'] = "营销管理";
 $l['Intro']['billposdel.php'] = "删除用户";
 $l['Intro']['billposedit.php'] = "编辑用户";
 $l['Intro']['billposlist.php'] = "显示用户";
@@ -1105,24 +1122,24 @@ $l['Intro']['graphsoveralllogins.php'] = "用户登录";
 $l['Intro']['graphsoverallupload.php'] = "用户上传";
 
 $l['Intro']['rephistory.php'] = "活动历史";
-$l['Intro']['replastconnect.php'] = "最后尝试连接";
-$l['Intro']['repstatradius.php'] = "守护进程信息";
+$l['Intro']['replastconnect.php'] = "认证或连接记录";
+$l['Intro']['repstatradius.php'] = "服务进程";
 $l['Intro']['repstatserver.php'] = "服务器状态和信息";
 $l['Intro']['reponline.php'] = "显示在线用户";
 $l['Intro']['replogssystem.php'] = "系统日志文件";
 $l['Intro']['replogsradius.php'] = "RADIUS服务器日志文件";
 $l['Intro']['replogsdaloradius.php'] = "daloRADIUS日志文件";
-$l['Intro']['replogsboot.php'] = "Boot日志文件";
+$l['Intro']['replogsboot.php'] = "启动日志文件";
 $l['Intro']['replogs.php'] = "日志";
-$l['Intro']['rephb.php'] = "心跳";
-$l['Intro']['rephbdashboard.php'] = "daloRADIUS NAS仪表盘";
+$l['Intro']['rephb.php'] = "集群中的节点";
+$l['Intro']['rephbdashboard.php'] = "集群节点列表";
 $l['Intro']['repbatch.php'] = "批量";
 $l['Intro']['mngbatchlist.php'] = "批量会话列表";
 $l['Intro']['repbatchlist.php'] = "批量用户列表";
 $l['Intro']['repbatchdetails.php'] = "批量明细";
 
 $l['Intro']['rephsall.php'] = "热点列表";
-$l['Intro']['repmain.php'] = "报告页面";
+$l['Intro']['repmain.php'] = "报表页面";
 $l['Intro']['repstatus.php'] = "状态页面";
 $l['Intro']['reptopusers.php'] = "用户使用详情";
 $l['Intro']['repusername.php'] = "用户列表";
@@ -1147,7 +1164,7 @@ $l['Intro']['mnghsnew.php'] = "新建热点";
 $l['Intro']['mngradusergroupdel.php'] = "移除用户组绘图";
 $l['Intro']['mngradusergroup.php'] = "用户组配置";
 $l['Intro']['mngradusergroupnew.php'] = "新建用户组绘图";
-$l['Intro']['mngradusergrouplist'] = "数据库用户组绘图";
+$l['Intro']['mngradusergrouplist'] = "用户组群关系列表";
 $l['Intro']['mngradusergrouplistuser'] = "数据库用户组绘图";
 $l['Intro']['mngradusergroupedit'] = "编辑用户组绘图";
 
@@ -1158,10 +1175,10 @@ $l['Intro']['mngradippooledit.php'] = "编辑IP地址池";
 $l['Intro']['mngradippooldel.php'] = "移除IP地址池";
 
 $l['Intro']['mngradnas.php'] = "NAS配置";
-$l['Intro']['mngradnasnew.php'] = "新建NAS记录";
-$l['Intro']['mngradnaslist.php'] = "NAS数据库列表";
-$l['Intro']['mngradnasedit.php'] = "编辑NAS记录";
-$l['Intro']['mngradnasdel.php'] = "移除NAS记录";
+$l['Intro']['mngradnasnew.php'] = "新建NAS录";
+$l['Intro']['mngradnaslist.php'] = "NAS列表";
+$l['Intro']['mngradnasedit.php'] = "编辑NAS";
+$l['Intro']['mngradnasdel.php'] = "移除NAS";
 
 $l['Intro']['mngradhunt.php'] = "寻线群配置";
 $l['Intro']['mngradhuntnew.php'] = "新建寻线群记录";
@@ -1226,15 +1243,15 @@ $l['captions']['filldetailsofnewrate'] = "填充下面新建价格条目的明�
  *页，基本上你的扩展工具提示。
  ************************************************************************************/
 
-$l['helpPage']['configdashboard'] = "控制台设置";
+$l['helpPage']['configdashboard'] = "集群设置";
 
 
-$l['helpPage']['repnewusers'] = "下拉表显示了每个月创建的新用户.";
+$l['helpPage']['repnewusers'] = "新用户创建的月份";
 
-$l['helpPage']['login'] = "";
+$l['helpPage']['login'] = "登陆";
 
 $l['helpPage']['billpaypaltransactions'] = "显示所有支付宝交易";
-$l['helpPage']['billhistoryquery'] = "显示所有用户计费历史(年代)";
+$l['helpPage']['billhistoryquery'] = "显示所有用户计费历史";
 
 $l['helpPage']['billinvoicereport'] = "";
 
@@ -1260,10 +1277,10 @@ $l['helpPage']['billplansnew'] = "";
 $l['helpPage']['billplansedit'] = "";
 $l['helpPage']['billplansdel'] = "";
 
-$l['helpPage']['billposlist'] = "";
-$l['helpPage']['billposnew'] = "";
-$l['helpPage']['billposedit'] = "";
-$l['helpPage']['billposdel'] = "";
+$l['helpPage']['billposlist'] = "用户列表，用于查找用户。";
+$l['helpPage']['billposnew'] = "新建用户和用户管理页面作用相近";
+$l['helpPage']['billposedit'] = "编辑用户信息";
+$l['helpPage']['billposdel'] = "删除用户";
 
 $l['helpPage']['billrateslist'] = "";
 $l['helpPage']['billratesnew'] = "";
@@ -1295,12 +1312,12 @@ $l['helpPage']['mngimportusers'] = "";
 $l['helpPage']['msgerrorpermissions'] = "你没有权限访问该页面。<br/>
 请咨询您的系统管理员。 <br/>";
 
-$l['helpPage']['mngradusergroup'] = "";
-$l['helpPage']['mngradusergroupdel'] = "为了从数据库中删除用户条目，您必须提供帐户的用户名";
-$l['helpPage']['mngradusergroupnew'] = "";
-$l['helpPage']['mngradusergrouplist'] = "";
-$l['helpPage']['mngradusergrouplistuser'] = "";
-$l['helpPage']['mngradusergroupedit'] = "";
+$l['helpPage']['mngradusergroup'] = "用户组群关系";
+$l['helpPage']['mngradusergroupdel'] = "未输入用户名，或者用户名错误";
+$l['helpPage']['mngradusergroupnew'] = "新建用户与组群关系";
+$l['helpPage']['mngradusergrouplist'] = "用户组群关系列表";
+$l['helpPage']['mngradusergrouplistuser'] = "组群中用户列表";
+$l['helpPage']['mngradusergroupedit'] = "编辑用户和组群关系";
 
 
 $l['helpPage']['mngradprofiles'] = "
@@ -1345,7 +1362,7 @@ $l['helpPage']['mngradgroupcheckdel'] = "
 ";
 
 $l['helpPage']['mngradgroupchecklist'] = "
-<h200><b>组织检查列表 </b></h200> - 组列表检查 <br/>
+<h200><b>组织检查列表 </b></h200> - 组列表检查 <br/> 输入的NAS名称错误，或者输入的密钥有错误 
 ";
 $l['helpPage']['mngradgroupcheckedit'] = "
 <h200><b>编辑组检查 </b></h200> - 编辑检查组 <br/>
@@ -1387,11 +1404,11 @@ $l['helpPage']['mngradippooledit'] = "<h200><b>编辑IP地址池</b></h200> - �
 $l['helpPage']['mngradippooldel'] = "<h200><b>删除IP地址池</b></h200> - 删除一个IP地址从一个配置IP地址池 <br/>";
 
 
-$l['helpPage']['mngradnas'] = "";
-$l['helpPage']['mngradnasdel'] = "删除一个nas ip /从数据库主机条目必须提供的ip /主机帐户";
-$l['helpPage']['mngradnasnew'] = "";
-$l['helpPage']['mngradnaslist'] = "";
-$l['helpPage']['mngradnasedit'] = "";
+$l['helpPage']['mngradnas'] = "NAS信息";
+$l['helpPage']['mngradnasdel'] = "请准确输入NAS的名称或者IP地址";
+$l['helpPage']['mngradnasnew'] = "新建一个NAS";
+$l['helpPage']['mngradnaslist'] = "NAS列表";
+$l['helpPage']['mngradnasedit'] = "编辑NAS";
 
 $l['helpPage']['mngradhunt'] = "HuntGroup开始工作之前,请阅读 <a href='http://wiki.freeradius.org/SQL_Huntgroup_HOWTO' target='_blank'>http://wiki.freeradius.org/SQL_Huntgroup_HOWTO</a>.
 <br/>
@@ -1405,6 +1422,7 @@ update request {
 }
 </pre>
 <i> 这是使用IP地址作为回报huntgroup名字中的一个重要radhuntgroup表中执行查找。然后添加一个属性/值对该请求的属性名称是huntgroup的名字和它的值就是从SQL查询返回的。如果查询没有发现任何值是空字符串。 </i>";
+
 
 
 $l['helpPage']['mngradhuntdel'] = "从数据库中删除组条目必须提供的ip /主机和端口id";
@@ -1501,11 +1519,11 @@ radclient将重发的数据包。
 
 
 ";
-$l['helpPage']['configoperatorsdel'] = "从数据库中删除的操作员必须提供用户名。";
-$l['helpPage']['configoperatorsedit'] = "下面编辑设备用户详细信息";
-$l['helpPage']['configoperatorsnew'] = "你可以填写下面的一个新建设备的用户除了数据库的详细信息";
-$l['helpPage']['configoperatorslist'] = "显示所有设备的数据库";
-$l['helpPage']['configoperators'] = "设备的配置";
+$l['helpPage']['configoperatorsdel'] = "请输入正确的管理员或操作员名";
+$l['helpPage']['configoperatorsedit'] = "编辑操作员或者管理员详细信息";
+$l['helpPage']['configoperatorsnew'] = "新建管理员或者操作员";
+$l['helpPage']['configoperatorslist'] = "现实操作权限";
+$l['helpPage']['configoperators'] = "管理员配置";
 $l['helpPage']['configbackup'] = "执行备份";
 $l['helpPage']['configbackupcreatebackups'] = "创建备份";
 $l['helpPage']['configbackupmanagebackups'] = "管理备份";
@@ -1536,7 +1554,7 @@ $l['helpPage']['graphsoveralllogins'] = "绘制图表对服务器的登录尝试
 
 $l['helpPage']['rephistory'] = "显示所有活动执行管理项目和提供信息<br/>
 创建日期,创建和更新日期和更新历史领域";
-$l['helpPage']['replastconnect'] = "显示所有RADIUS服务器的登录尝试,成功和失败的登录";
+$l['helpPage']['replastconnect'] = "现实所有行为的记录";
 $l['helpPage']['replogsboot'] = "监控操作系统启动日志——相当于运行dmesg命令。";
 $l['helpPage']['replogsdaloradius'] = "监控daloRADIUS的日志文件";
 $l['helpPage']['replogsradius'] = "监控FreeRADIUS的日志文件。";
@@ -1569,15 +1587,23 @@ $l['helpPage']['repmain'] = "
 <b>Sub-范畴的报告</b><br/>
 <h200><b>Logs</b></h200> - 提供daloRADIUS日志文件、FreeRADIUSs日志文件系统的日志文件和启动日志文件<br/>
 <h200><b>Status</b></h200> - 提供服务器状态信息和RADIUS组件状态";
-$l['helpPage']['repstatradius'] = "提供关于服务器本身的一般信息:CPU使用率,流程,正常运行时间、内存使用情况,等等";
-$l['helpPage']['repstatserver'] = "提供关于FreeRADIUS守护进程的一般信息和MySQL数据库服务器";
+
+$l['helpPage']['repstatradius'] = "数据库和radius进程信息";
+
+$l['helpPage']['repstatserver'] = "服务器状态。提供关于服务器本身的一般信息:CPU使用率,流量,正常运行时间、内存使用情况,等等。";
 $l['helpPage']['repstatus'] = "<b>状态</b><br/>
-<h200><b>服务器状态</b></h200> - 提供关于服务器本身的一般信息:CPU使用率,流程,正常运行时间、内存使用情况,等等。<br/>
-<h200><b>RADIUS 状态</b></h200> - 提供关于FreeRADIUS守护进程的一般信息和MySQL数据库服务器";
+<h200><b>服务器状态</b></h200> - 提供关于数据库和相关服务进程的信息。<br/>
+<h200><b>RADIUS 状态</b></h200> - 服务器状态。提供关于服务器本身的一般信息:CPU使用率,流量,正常运行时间、内存使用情况,等等。";
 $l['helpPage']['reptopusers'] = "下面显示记录为高级用户,那些获得了最高消费的会话
 时间和带宽使用情况。清单的用户类别: ";
 $l['helpPage']['repusername'] = "记录发现的用户:";
-$l['helpPage']['reponline'] = "下表显示了当前连接的用户，由于延时或者掉线的原因，这个统计并不完全准确，建议刷新几次观察决定。";
+$l['helpPage']['reponline'] = "
+下表显示了当前连接用户
+系统。非常有可能,有陈旧的连接,
+这意味着用户掉线但NAS没有发送或不是
+能够发送停止会计包RADIUS服务器。";
+
+
 
 $l['helpPage']['mnglistall'] = "清单中的用户数据库";
 $l['helpPage']['mngsearch'] = "搜索用户： ";
@@ -1589,7 +1615,8 @@ $l['helpPage']['mngbatch'] = "您可以填写以下信息新用户除了数据�
 $l['helpPage']['mngnewquick'] = "下面的用户/卡是预付费类型。<br/>
 在时间信用证规定的时间内将被用作 Session-Timeout（会话超时） 和 Max-All-Session（最大-所有-会话） RADIUS属性";
 
-// 账单部分
+
+// 统计部分
 $l['helpPage']['acctactive'] = "
 	规定，将被证明是用于跟踪活动或过期的数据库中的用户有用的信息
 其中有一个到期属性或马克斯 - 所有会话属性的用户而言。
@@ -1713,7 +1740,14 @@ $l['helpPage']['acctmaintenance'] = "
 	除了管理员访问这个页面。
 <br/>
 ";
-$l['helpPage']['acctmaintenancecleanup'] = "";
+$l['helpPage']['acctmaintenancecleanup'] = "
+<h200><b>Cleanup Stale Sessions</b></h200> - Cleanup Stale Sessions by username or date.<br/><br/>
+	A stale session occurs when a user connection remains as active in FreeRADIUS (so, in daloRADIUS), but it does not exists in the NAS.
+	This is normally caused by a lost disconnect message from the NAS to FreeRADIUS.</br></br>
+	You have two choices to cleanup stale sessions, use them with caution:<br/>
+	&nbsp;&bullet; By Username: This option will <b>CLOSE</b> all opened sessions for a username in the FreeRADIUS database.<br/>
+	&nbsp;&bullet; By Date: This option will <b>DELETE</b> all opened sessions older than a date in the FreeRADIUS database.<br/>	
+";
 $l['helpPage']['acctmaintenancedelete'] = "";
 
 
@@ -1789,8 +1823,8 @@ $l['messages']['gisviewwelcome'] = "欢迎来到Enginx视觉地图";
 
 $l['messages']['loginerror'] = "<br/><br/>下面之一：<br/>
 1. 错误的用户名/密码<br/>
-2. 管理员已经登录的（只允许一个实例）<br/>
-3. 似乎有不止一个的管理员的用户在数据库中<br/>
+2. 管理员已经登录的（不允许重复登陆）<br/>
+3. 不允许多个管理员登陆<br/>
 ";
 
 $l['buttons']['savesettings'] = "保存设置";
@@ -1798,13 +1832,11 @@ $l['buttons']['apply'] = "应用";
 
 $l['menu']['Home'] = "<em>主</em>页</a>";
 $l['menu']['Managment'] = "<em>管</em>理</a>";
-$l['menu']['Reports'] = "<em>报</em>告</a>";
-$l['menu']['Accounting'] = "<em>账</em>单</a>";
-$l['menu']['Billing'] = "<em>记</em>账</a>";
+$l['menu']['Reports'] = "<em>报</em>表</a>";
+$l['menu']['Accounting'] = "<em>统</em>计</a>";
+$l['menu']['Billing'] = "<em>财</em>务</a>";
 $l['menu']['Gis'] = "<em>G</em>IS</a>";
 $l['menu']['Graphs'] = "<em>图</em>表</a>";
 $l['menu']['Config'] = "<em>配</em>置</a>";
 $l['menu']['Help'] = "<em>帮</em>助</a>";
-
-
 ?>
